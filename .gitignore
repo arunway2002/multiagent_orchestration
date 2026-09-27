@@ -1,0 +1,37 @@
+# === Virtual Environments ===
+lc-academy-env/
+.venv/
+env/
+venv/
+ENV/
+
+# === Python Caches & Build Files ===
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# === Local Databases & Vector Stores ===
+# Exclude in-memory state snapshots or local Chroma/Faiss disk persistence dumps
+.chroma/
+*.db
+*.sqlite
+
+# === Local Knowledge Base Files ===
+# Excludes the text and PDF knowledge bases containing proprietary data
+!requirements.txt
+
+# === Environment Variables & Secrets ===
+# Never commit your local API keys or profile files
+.env
+.env.local
+.secret
+secrets.json
+
+# === Mac System Files ===
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
