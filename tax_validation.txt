@@ -1,0 +1,4 @@
+=== TAX RULES AND VALIDATIONS ===
+TAX-88: Invoices received from international vendors must explicitly state the foreign entity's corporate Tax ID. Without this, cross-border withholding tax defaults to a flat 15%.
+TAX-89: Any entertainment invoice exceeding $250 requires a line-item itemization showing names of all attendees to be eligible for the 50% tax deduction.
+TAX-90: Standard corporate service VAT validation requires an active GSTIN tracking number matches on the government invoice matching matrix.

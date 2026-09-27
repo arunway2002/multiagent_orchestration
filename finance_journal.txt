@@ -1,0 +1,4 @@
+=== JOURNAL ENTRY RULES ===
+JE-101: All software subscription expenses exceeding $1,000 must be debited to Account 5420 (IT Software Operations) and credited to Account 2110 (Accounts Payable).
+JE-102: Office supply purchases below $500 should be immediately expensed under Account 5100 (Office Administrative Expenses).
+JE-103: Hardware depreciations must use the straight-line method over a 36-month asset lifespan.
